@@ -1,6 +1,6 @@
 == 21 Questions
 
-[CLASS HEADER HERE]
+This program creates a game where the user is asked to think of an object and will then be asked a series of yes/no questions until the computer makes its best guess of the object. If it is correct, it wins. Otherwise it will become more intelligent by storing the user's new object next to the incorrectly guessed object, distinguishing the two with a given yes/no question. This program is able to read in other trees, as well as store the current tree to an output file, all in preorder form.
 
 
 == Public Methods
