@@ -1,0 +1,35 @@
+== 21 Questions
+
+[CLASS HEADER HERE]
+
+
+== Public Methods
+	
+constructs a LetterInventory object with an inventory of each letter passed in.
+       LetterCounter(String data)
+	
+pre : char is a letter (throws IllegalArgumentException if not)
+post: returns the count for the given letter
+       int get(char letter)
+
+pre : char is a letter && value >= 0 (throws IllegalArgumentException if not)
+post: sets the count for given letter to given value
+       void set(char letter, int value)
+
+post: returns the current sum of letter counts in the LetterInventory instance
+       int size()
+	
+post: returns true if array is empty, false otherwise
+       boolean isEmpty()
+
+post: returns a sorted lowercase String of the inventory surrounded with square brackets
+       String toString()
+
+pre : other argument must be a LetterCounter reference
+post: returns a new LetterCounter object that represents the sum of this LetterCounter and the other given LetterCounter.
+       LetterInventory add(LetterInventory other)
+
+pre : other argument must be a LetterCounter reference
+post: returns a new LetterInventory object that represents the difference between the other LetterCounter from this LetterCounter.
+       LetterInventory subtract(LetterInventory other)
+
