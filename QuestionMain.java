@@ -1,6 +1,3 @@
-// Stuart Reges
-// 5/16/05
-//
 // This program plays the question guessing game with a user.  It reads the
 // old tree from a file if the user wants to.  It always writes its result
 // to a file in case the user wants to use that tree the next time.
@@ -12,7 +9,7 @@ public class QuestionMain {
     public static final String QUESTION_FILE = "question.txt";
 
     public static void main(String[] args) throws FileNotFoundException {
-        System.out.println("Welcome to the cse143 question program.");
+        System.out.println("Welcome to the CSE question program.");
         System.out.println();
 
         QuestionTree questions = new QuestionTree();
